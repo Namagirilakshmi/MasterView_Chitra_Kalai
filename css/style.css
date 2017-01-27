@@ -1,0 +1,166 @@
+/*wrapper starts here*/
+.wrapper{
+	width:100%;
+	margin:0 auto;
+	background-color: #b3f0ff;
+	 background:url("images/background.jpg") repeat-x;
+	position: relative;
+}
+/*header starts here*/
+.headContent{
+	width: 100%;
+	padding: 20px;
+  background-color: #eb85ce;; 
+}
+h1{
+	font: bold 40px cursive;
+	text-align: center;
+}
+.headContent img{
+	width:30%;
+}
+/*leftcontent of the page*/
+.LeftContent{
+	padding: 0px 0px 25px 0px;
+	margin: 25px 0px 25px 0px;
+}
+.tab:hover{
+	background-color: #eb85ce;
+	border-radius: 20px;
+}
+.tab.active{
+	background-color: #d9d9d9;
+	border-radius: 20px;
+}
+.navList{
+	border: 3px solid black;
+	border-radius: 20px;
+}
+/*right content of the page*/
+.spicesImg{
+float: left;
+margin: 35px;
+    border: 15px solid black;
+}
+.Info{
+float: left;
+margin:13px 30px 30px;
+}
+.navList p{
+	font:bold 32px cursive;
+	padding: 25px;
+	box-shadow: 10px 10px 5px #ffb3ff;
+	    border-radius: 20px;
+}
+.tabs-content{
+	min-height:1200px;
+	}
+#subContent{
+	width: 100%;
+	margin: 0 auto;
+}
+#subContent p{
+	font: bold 28px cursive, sans-serif;
+	padding: 15px 0px; 
+}
+#subContent span{
+	display: block;
+	 margin: 35px;
+	color: #005c99;
+	font: bold 28px cursive, sans-serif;
+}
+.okay{
+	display: none;
+}
+.clearFix{
+	clear: both;
+}
+.tabs-content>.content{
+	float: none;
+}
+.Arrow{
+	float: right;
+	display: none;
+}
+@keyframes str {
+  0% {
+    transform: scale(.2);
+ }
+}
+.surprise{
+	animation-name: str;
+    animation-duration: 2s;
+    font-size: 63px;
+   
+}
+
+/*xs-mobile devices*/
+@media only screen and (max-width: 767px){
+	h1{
+	font: bold 28px cursive;
+	text-align: center;
+}
+.LeftContent{	
+	padding: 0px 0px 25px 0px;
+	margin: 25px 0px 25px 0px;
+}
+.spicesImg{
+	display: none;
+	}
+
+.navList p{
+	font:bold 20px cursive;
+	padding: 25px;
+}
+#subContent p{
+	font: bold 20px cursive, sans-serif;
+	padding: 15px 0px; 
+}
+.Arrow{
+	float: right;
+	display: block;
+}
+#subContent span{
+	 margin: 0 0 0 35px;
+	color: #005c99;
+	font: bold 27px cursive, sans-serif;
+}
+.tabs-content{
+	width: 100%;
+	position: absolute;
+	background-color: #ffe6ff;
+	min-height: 0px;
+}
+.okay{
+	display: block;
+	width:208px;
+	    margin-top: 20px;
+	border-radius: 34px;
+	background-color: #800080
+}
+}
+/*sm-tab devices*/
+@media (min-width: 767px) and (max-width: 991px){
+	#subContent p,h3{
+	font: bold 14px cursive, sans-serif;
+	padding: 15px 0px; 
+}
+.navList p {
+    font: bold 16px cursive;
+    padding: 25px;
+}
+#subContent {
+    margin: 25px;
+}
+#subContent span{
+	 margin: 0 0 0 35px;
+	color: #005c99;
+	font: bold 24px cursive, sans-serif;
+}
+.Info{
+	margin: 0 5px 0 5px;
+}
+.spicesImg{
+	margin:5px;
+	}
+}
